@@ -22,3 +22,5 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0
   CriticalSprite: {fileID: 21300000, guid: 5a1818525e847b946b39cb111713e28a, type: 3}
+  CriticalComboSprite: {fileID: 21300000, guid: 03ae5490f877d4b4683506e0be2283f4, type: 3}
+  Range: 50

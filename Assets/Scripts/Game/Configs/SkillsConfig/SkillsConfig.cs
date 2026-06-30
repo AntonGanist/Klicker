@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Game.Skills.Data;
+using Global.SaveSystem.SavableObjects;
 using UnityEngine;
 
 namespace Game.Configs.SkillsConfig
@@ -9,15 +10,15 @@ namespace Game.Configs.SkillsConfig
     {
         public List<SkillData> Skills;
 
-        private Dictionary<string, Dictionary<int, SkillDataByLevel>> _skillDataByLevelMap;
-        public SkillDataByLevel GetSkillData(string skillId, int level)
+        private Dictionary<string, SkillData> _skillDataByLevelMap;
+        public SkillData GetSkillData(string skillId)
         {
             if (_skillDataByLevelMap == null || _skillDataByLevelMap.Count == 0)
             {
                 FillSkillDataMap();
             }
 
-            return _skillDataByLevelMap[skillId][level];
+            return _skillDataByLevelMap[skillId];
         }
 
         private void FillSkillDataMap()
@@ -27,13 +28,39 @@ namespace Game.Configs.SkillsConfig
             {
                 if (!_skillDataByLevelMap.ContainsKey(skillData.SkillId))
                 {
-                    _skillDataByLevelMap[skillData.SkillId] = new();
+                    _skillDataByLevelMap[skillData.SkillId] = skillData;
+                }
+            }
+        }
+        public void ChangeSkill(SkillData skillData)
+        {
+            for (int i = 0; i < Skills.Count; i++)
+            {
+                if (skillData.SkillId == Skills[i].SkillId)
+                {
+                    Skills[i] = new SkillData(skillData.Unlock,
+                                skillData.SkillId,
+                                skillData.Variants,
+                                skillData.Value,
+                                skillData.Trigger,
+                                skillData.TriggerValue,
+                                skillData.Cost,
+                                skillData.ChangeValue,
+                                skillData.ChangeTriggerValue,
+                                skillData.ShopName,
+                                skillData.Description,
+                                skillData.Use
+                    );
+                    break;
                 }
 
-                foreach (var skillDataByLevel in skillData.SkillLevels)
-                {
-                    _skillDataByLevelMap[skillData.SkillId][skillDataByLevel.Level] = skillDataByLevel;
-                }
+            }
+        }
+        public void StartsChangeSkills(List<SkillWithLevel> skillsWithLevel)
+        {
+            for (int i = 0; i < skillsWithLevel.Count; i++)
+            {
+                Skills[i] = skillsWithLevel[i].skillData;
             }
         }
     }

@@ -51,6 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _enemyContainer: {fileID: 8189423737157006458}
   _enemiesConfig: {fileID: 11400000, guid: 1c165f66dbe6485418d3ac61a8f0bc5a, type: 2}
+  _moneyManager: {fileID: 0}
 --- !u!1 &5206661388037391300
 GameObject:
   m_ObjectHideFlags: 0

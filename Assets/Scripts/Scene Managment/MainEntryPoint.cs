@@ -21,8 +21,15 @@ namespace SceneManagement
             commonObject.SceneLoader.Initialize(/*commonObject.AudioManager*/);
 
             commonObject.SaveSystem = new();
+            SaveSystem saveSystem = commonObject.SaveSystem;
 
             commonObject.SceneLoader.LoadMetaScene();
+
+            commonObject.MoneyCounter.Initialize(saveSystem);
+
+            commonObject.SkillCounter.Initialize(saveSystem);
+
+            commonObject.BalanceManager.Initialize(saveSystem, commonObject.Formuls);
         }
     }
 }

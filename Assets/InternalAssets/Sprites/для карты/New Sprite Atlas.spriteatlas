@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 4
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 512
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 73f25566de6cd574ea4d880c1808a045, type: 3}
+    - {fileID: 2800000, guid: 2e7bc83595aefc2468c710653d9ef55c, type: 3}
+    - {fileID: 2800000, guid: 03d0ea4a6f31c224d912ee601bbb3dcc, type: 3}
+    - {fileID: 2800000, guid: 13badd0e1e7145d42b1c7a90c39bc0c3, type: 3}
+    - {fileID: 2800000, guid: 0fb54774c17ceee4fbc3457b74fdb7bc, type: 3}
+    - {fileID: 2800000, guid: 36c7d4438e2b38b4c8509d9fbe21b6b6, type: 3}
+    - {fileID: 2800000, guid: 198505b050b02d3479d3f61581a91d32, type: 3}
+    - {fileID: 2800000, guid: 54c9ff1f021375e41be6b3461bfb39c5, type: 3}
+    - {fileID: 2800000, guid: 18ff4eef09690dd49a8d201793d3540e, type: 3}
+    - {fileID: 2800000, guid: cd060b1d6e0cbb44688f903aa527be47, type: 3}
+    - {fileID: 2800000, guid: c2efc27f504bc3a44beab4cb48103665, type: 3}
+    - {fileID: 2800000, guid: 421e070b44e2fa74a985357f8cbf05eb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 198505b050b02d3479d3f61581a91d32: 21300000
+    - 36c7d4438e2b38b4c8509d9fbe21b6b6: 21300000
+    - 0fb54774c17ceee4fbc3457b74fdb7bc: 21300000
+    - 2e7bc83595aefc2468c710653d9ef55c: 21300000
+    - 73f25566de6cd574ea4d880c1808a045: 21300000
+    - 03d0ea4a6f31c224d912ee601bbb3dcc: 21300000
+    - 421e070b44e2fa74a985357f8cbf05eb: 21300000
+    - cd060b1d6e0cbb44688f903aa527be47: 21300000
+    - 13badd0e1e7145d42b1c7a90c39bc0c3: 21300000
+    - 54c9ff1f021375e41be6b3461bfb39c5: 21300000
+    - c2efc27f504bc3a44beab4cb48103665: 21300000
+    - 18ff4eef09690dd49a8d201793d3540e: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 198505b050b02d3479d3f61581a91d32, type: 3}
+  - {fileID: 21300000, guid: 36c7d4438e2b38b4c8509d9fbe21b6b6, type: 3}
+  - {fileID: 21300000, guid: 0fb54774c17ceee4fbc3457b74fdb7bc, type: 3}
+  - {fileID: 21300000, guid: 2e7bc83595aefc2468c710653d9ef55c, type: 3}
+  - {fileID: 21300000, guid: 73f25566de6cd574ea4d880c1808a045, type: 3}
+  - {fileID: 21300000, guid: 03d0ea4a6f31c224d912ee601bbb3dcc, type: 3}
+  - {fileID: 21300000, guid: 421e070b44e2fa74a985357f8cbf05eb, type: 3}
+  - {fileID: 21300000, guid: cd060b1d6e0cbb44688f903aa527be47, type: 3}
+  - {fileID: 21300000, guid: 13badd0e1e7145d42b1c7a90c39bc0c3, type: 3}
+  - {fileID: 21300000, guid: 54c9ff1f021375e41be6b3461bfb39c5, type: 3}
+  - {fileID: 21300000, guid: c2efc27f504bc3a44beab4cb48103665, type: 3}
+  - {fileID: 21300000, guid: 18ff4eef09690dd49a8d201793d3540e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u043F\u043B\u0430\u0448\u043A\u0430 1"
+  - "\u043D\u0430\u0437\u0430\u0434"
+  - "\u043A\u043D\u043E\u043F\u043A\u0430 2"
+  - "\u0437\u0430\u0433\u0440\u0443\u0437\u043A\u0430"
+  - "\u0431\u0443\u0434\u0443\u044E\u0449\u0435\u0435"
+  - "\u0438\u043D\u0444\u0430"
+  - "\u0447\u0435\u0440\u0435\u043F"
+  - "\u0441\u0442\u0440\u0435\u043B\u043A\u0430"
+  - "\u043A\u043D\u043E\u043F\u043A\u0430 1"
+  - "\u043F\u043B\u0430\u0448\u043A\u0430 2"
+  - "\u0442\u0435\u043A\u0443\u0449\u0435\u0435"
+  - "\u043F\u0440\u043E\u0448\u0435\u043B"
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0

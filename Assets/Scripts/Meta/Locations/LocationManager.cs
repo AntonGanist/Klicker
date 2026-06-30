@@ -13,11 +13,13 @@ namespace Meta.Locations
 
         [SerializeField] private List<Location> _locations;
 
+        //[SerializeField] private Button _infinityLevel;
+
         private int _currentLocation;
 
         public void Initialize(Progress progress, UnityAction<int, int> startLevelCallback)
         {
-            _currentLocation = progress.CurrentLocation;
+            _currentLocation = Mathf.Clamp(progress.CurrentLocation, 1, _locations.Count);
             InitLocations(progress, startLevelCallback);
             InitializeMoveLocationButtons();
         }

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 219d02ec6c9ef0142bed220743e2cd36, type: 3}
+  m_Name: MutagenConfig
+  m_EditorClassIdentifier: 
+  MutagenPrefab: {fileID: 7060012828835474738, guid: 5c7a39a39f0b5474592373059adb2fd3, type: 3}
+  Mutagens:
+  - Sprite: {fileID: 21300000, guid: 18245ff5a91641145b8c561198fefba3, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: VampirismSkill
+  - Sprite: {fileID: 21300000, guid: 6789412f6cd37a84585f7ead451e598e, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: RegenManaSkill
+  - Sprite: {fileID: 21300000, guid: 5972a1d5bde2c8d43b1643c17e3cb677, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: FreeMagickCastSkill
+  - Sprite: {fileID: 21300000, guid: b078a6104b88fd34e909599f9a130c85, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: DoubledDamageSkill
+  - Sprite: {fileID: 21300000, guid: a0325bcff36fc6d4a938bceb702f685d, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: AccumulatingDamageSkill
+  - Sprite: {fileID: 21300000, guid: 985a4359a9322e34992061d7af09f8af, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: IncreaseMoneySkill
+  - Sprite: {fileID: 21300000, guid: 7bfa58790443b7842bee113df3eb33dc, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: RegenerasionAllSkill
+  - Sprite: {fileID: 21300000, guid: e5fb1eae9425f25448e70fe423ceaad7, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: StrengtheningPotions
+  - Sprite: {fileID: 21300000, guid: 8a788687dffb933468f19f9b7ca837c4, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: LastChance
+  - Sprite: {fileID: 21300000, guid: e821e4163139626468bade0b12b5717a, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: UpgradePosion
+  - Sprite: {fileID: 21300000, guid: dfb2eb8979081984cacbf7570fa92105, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: ThickSkinned
+  - Sprite: {fileID: 21300000, guid: ec8c1d894b69105449fa31aef4287726, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: OilUpdater
+  - Sprite: {fileID: 21300000, guid: c239cfa4643565c48891ca4c67f40ed4, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: AccumulatingCritDamageSkill
+  - Sprite: {fileID: 21300000, guid: f5b7a71cbc8f1a3499b3ffcaae62a57a, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: RandomStatUp
+  - Sprite: {fileID: 21300000, guid: 7e5d7d8f6bd0b944f921f88771f9f2d3, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: DeathIncreasedDamage
+  - Sprite: {fileID: 21300000, guid: 746d294df9956824aab8530f68289046, type: 3}
+    Mass: 3
+    Scale: {x: 1, y: 1, z: 1}
+    Id: VulnerabilityToMagic

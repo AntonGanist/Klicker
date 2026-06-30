@@ -5,5 +5,7 @@ namespace Global.SaveSystem
         Wallet = 1,
         Progress = 2,
         OpenedSkills = 3,
+        BalanceProgress = 4,
+        InfinityLevelStat = 5,
     }
 }

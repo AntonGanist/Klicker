@@ -6,9 +6,8 @@ namespace Game.Configs.LevelConfigs
     public struct EnemySpawnData
     {
         public int Id;
-        public float Hp;
-        public float Damage;
         public bool IsBoss;
-        public float BossTime;
+        public bool DropMutagen;
+        public bool AutoLeveling;
     }
 }

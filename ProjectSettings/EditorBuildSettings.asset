@@ -14,5 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/InfinityLevel.unity
+    guid: c849875e0a727904595c2262594c777e
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 0e903f9058ca940d1a7a9fe9312158f5, type: 2}
   m_UseUCBPForAssetBundles: 0

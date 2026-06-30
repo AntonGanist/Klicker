@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Game.Configs.SkillsConfig;
+using Game.ClickButton;
 using Game.Enemies;
 using Global.SaveSystem.SavableObjects;
 
@@ -9,30 +9,34 @@ namespace Game.Skills
     public class SkillSystem
     {
         private SkillScope _scope;
-        private SkillsConfig _skillsConfig;
-
+        private SkillCounter _skillCounter;
         private Dictionary<SkillTrigger, List<Skill>> _skillsByTrigger;
 
-        public SkillSystem(OpenedSkills openedSkills, SkillsConfig skillsConfig, EnemyManager enemyManager)
+        public SkillSystem(OpenedSkills openedSkills, PlayerHealthAndMana playerHealth,
+            Game.Magick.CreateMagick _createMagick, EnemyManager enemyManager, ClickButtonManager clickButtonManager,
+            SkillCounter skillCounter)
         {
-            _skillsConfig = skillsConfig;
+            _skillCounter = skillCounter;
             _skillsByTrigger = new();
             _scope = new()
             {
-                EnemyManager = enemyManager
+                PlayerHealth = playerHealth,
+                CreateMagick = _createMagick,
+                EnemyManager = enemyManager,
+                ClickButtonManager = clickButtonManager,
+                SkillCounter = skillCounter
             };
-
             foreach (var skill in openedSkills.Skills)
             {
                 RegisterSkill(skill);
             }
         }
-
         public void InvokeTrigger(SkillTrigger trigger)
         {
             if (!_skillsByTrigger.ContainsKey(trigger)) return;
 
             var skillsToActivate = _skillsByTrigger[trigger];
+
             foreach (var skill in skillsToActivate)
             {
                 skill.SkillProcess();
@@ -41,7 +45,7 @@ namespace Game.Skills
 
         private void RegisterSkill(SkillWithLevel skill)
         {
-            var skillData = _skillsConfig.GetSkillData(skill.Id, skill.Level);
+            var skillData = _skillCounter.GetSkillData(skill.Id);
 
             var skillType = Type.GetType($"Game.Skills.SkillVariants.{skill.Id}");
             if (skillType == null)
@@ -56,12 +60,14 @@ namespace Game.Skills
 
             skillInstance.Initialize(_scope, skillData);
 
-            if (!_skillsByTrigger.ContainsKey(skillData.Trigger))
+            foreach (var trigger in skillData.Trigger)
             {
-                _skillsByTrigger[skillData.Trigger] = new();
+                if (!_skillsByTrigger.ContainsKey(trigger))
+                {
+                    _skillsByTrigger[trigger] = new();
+                }
+                _skillsByTrigger[trigger].Add(skillInstance);
             }
-
-            _skillsByTrigger[skillData.Trigger].Add(skillInstance);
             skillInstance.OnSkillRegistered();
         }
     }

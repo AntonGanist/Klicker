@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Extensions;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Game.Configs.LevelConfigs
 {
@@ -21,33 +20,46 @@ namespace Game.Configs.LevelConfigs
         public int GetMaxLevelOnLocation(int location)
         {
             if (_levelsMap.IsNullOrEmpty()) FillLevelMap();
+
+            if (!_levelsMap.ContainsKey(location))
+            {
+                Debug.LogError($"No levels found for location {location}");
+                return 0;
+            }
+
             var maxLevel = 0;
             foreach (var levelNumber in _levelsMap[location].Keys)
             {
-                if (levelNumber <= maxLevel) continue;
-                maxLevel = levelNumber;
+                if (levelNumber > maxLevel)
+                    maxLevel = levelNumber;
             }
-
             return maxLevel;
         }
 
         public Vector2Int GetMaxLocationAndLevel()
         {
             if (_levelsMap.IsNullOrEmpty()) FillLevelMap();
-            var locationAndLevel = new Vector2Int();
-            foreach (var locationNumber in _levelsMap.Keys)
+            if (_levelsMap.Count == 0) return Vector2Int.zero;
+
+            var maxLocation = 0;
+            var maxLevel = 0;
+
+            foreach (var location in _levelsMap.Keys)
             {
-                if (locationNumber <= locationAndLevel.x) continue;
-                locationAndLevel.x = locationNumber;
+                if (location > maxLocation)
+                {
+                    maxLocation = location;
+                    maxLevel = 0; 
+                }
+
+                foreach (var level in _levelsMap[location].Keys)
+                {
+                    if (level > maxLevel)
+                        maxLevel = level;
+                }
             }
 
-            foreach (var levelNumber in _levelsMap[locationAndLevel.x].Keys)
-            {
-                if (levelNumber <= locationAndLevel.y) continue;
-                locationAndLevel.y = levelNumber;
-            }
-
-            return locationAndLevel;
+            return new Vector2Int(maxLocation, maxLevel);
         }
 
         private void FillLevelMap()

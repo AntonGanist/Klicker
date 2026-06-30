@@ -69,4 +69,16 @@ public class PoolMono<T> where T : MonoBehaviour
             pool[i].gameObject.SetActive(false);
         }
     }
+    public int GetActiveElement()
+    {
+        int active = 0;
+        for (int i = 0; i < pool.Count; i++)
+        {
+            if (pool[i].gameObject.activeInHierarchy)
+            {
+                active++;
+            }
+        }
+        return active;
+    }
 }

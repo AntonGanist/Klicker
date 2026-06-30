@@ -3,9 +3,12 @@ namespace Game.Skills
     public enum SkillTrigger
     {
         OnDamage = 1,
-        OnDead = 2,
-        OnTime = 3,
-        OnTimerLeft = 4,
+        OnCriticalDamage = 2,
+        OnCastSpell = 3,
+        OnDead = 4,
         OnStart = 5,
+        OnTakeDamage = 6,
+        OnPosion = 7,
+        OnSpawnEnemy = 8,
     }
 }

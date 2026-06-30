@@ -12,48 +12,1220 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad37dff64eb92bc4ba5a585d392cefaf, type: 3}
   m_Name: LevelsConfig
   m_EditorClassIdentifier: 
-  Levels:
-  - Location: 1
+  _levels:
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
     LevelNumber: 1
     Enemies:
-    - Id: 0
-      Hp: 10
+    - Id: 2
       IsBoss: 0
-      BossTime: 0
-    - Id: 0
-      Hp: 15
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
       IsBoss: 0
-      BossTime: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 2
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 3
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 4
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 5
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 6
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 7
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 1
+    LevelNumber: 8
+    Enemies:
+    - Id: 2
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
+    LevelNumber: 1
+    Enemies:
     - Id: 1
-      Hp: 25
       IsBoss: 0
-      BossTime: 0
-    Reward: 0
-  - Location: 1
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
     LevelNumber: 2
     Enemies:
     - Id: 0
-      Hp: 15
       IsBoss: 0
-      BossTime: 0
-    Reward: 0
-  - Location: 1
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
     LevelNumber: 3
     Enemies:
     - Id: 0
-      Hp: 20
       IsBoss: 0
-      BossTime: 0
-    Reward: 0
-  - Location: 1
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
     LevelNumber: 4
     Enemies:
-    - Id: 0
-      Hp: 15
+    - Id: 1
       IsBoss: 0
-      BossTime: 0
+      DropMutagen: 0
+      AutoLeveling: 0
     - Id: 0
-      Hp: 20
       IsBoss: 0
-      BossTime: 0
-    Reward: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
+    LevelNumber: 5
+    Enemies:
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
+    LevelNumber: 6
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 3d9034518ce44d94f98080257c450cb6, type: 3}
+    Location: 2
+    LevelNumber: 7
+    Enemies:
+    - Id: 5
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 1
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 1
+    Enemies:
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 2
+    Enemies:
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 3
+    Enemies:
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 4
+    Enemies:
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 5
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 6
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 7
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 389f5d0a48c92f6449043aa4406ef3f9, type: 3}
+    Location: 3
+    LevelNumber: 8
+    Enemies:
+    - Id: 0
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 1
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 2
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 3
+    Enemies:
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 4
+    Enemies:
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 5
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 6
+    Enemies:
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 7
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: a6809e713938c7649b99bbdd4d7da719, type: 3}
+    Location: 4
+    LevelNumber: 8
+    Enemies:
+    - Id: 6
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 1
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 1
+    Enemies:
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 2
+    Enemies:
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 3
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 4
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 5
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 6
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 7
+    Enemies:
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 81b1139152dfeda4da610a758e3f3dc1, type: 3}
+    Location: 5
+    LevelNumber: 8
+    Enemies:
+    - Id: 11
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 1
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 2
+    Enemies:
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 3
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 4
+    Enemies:
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 5
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 6
+    Enemies:
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 10
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 7
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 0302dae648e89ab4f9c39bbf7f34c647, type: 3}
+    Location: 6
+    LevelNumber: 8
+    Enemies:
+    - Id: 4
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 1
+  - Backgraund: {fileID: 21300000, guid: 1b7d5eaa00f35c444b3a949b8e785284, type: 3}
+    Location: 7
+    LevelNumber: 1
+    Enemies:
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1b7d5eaa00f35c444b3a949b8e785284, type: 3}
+    Location: 7
+    LevelNumber: 2
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 0
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1b7d5eaa00f35c444b3a949b8e785284, type: 3}
+    Location: 7
+    LevelNumber: 3
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1b7d5eaa00f35c444b3a949b8e785284, type: 3}
+    Location: 7
+    LevelNumber: 4
+    Enemies:
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1b7d5eaa00f35c444b3a949b8e785284, type: 3}
+    Location: 7
+    LevelNumber: 5
+    Enemies:
+    - Id: 10
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 1
+    Enemies:
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 1
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 2
+    Enemies:
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 3
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 4
+    Enemies:
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 5
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 6
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 70536cc12c9c54c4ab99fd82db85bbe4, type: 3}
+    Location: 8
+    LevelNumber: 7
+    Enemies:
+    - Id: 1
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 1
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 1
+    Enemies:
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 2
+    Enemies:
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 3
+    Enemies:
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 5
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 4
+    Enemies:
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 2
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 5
+    Enemies:
+    - Id: 6
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 11
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 3
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 6
+    Enemies:
+    - Id: 1
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 7
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+    - Id: 4
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 7
+    Enemies:
+    - Id: 9
+      IsBoss: 0
+      DropMutagen: 0
+      AutoLeveling: 0
+  - Backgraund: {fileID: 21300000, guid: 1239fcd255a69a8488eaf894476f606c, type: 3}
+    Location: 9
+    LevelNumber: 8
+    Enemies:
+    - Id: 8
+      IsBoss: 1
+      DropMutagen: 1
+      AutoLeveling: 1

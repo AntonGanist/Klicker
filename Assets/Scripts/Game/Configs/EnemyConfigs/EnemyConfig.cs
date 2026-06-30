@@ -13,12 +13,22 @@ namespace Game.Configs.EnemyConfigs
         {
             public int Id;
             public string Name;
-            public float DamageTime;
+            [Range(0f, 1f)] public float FrameAttack;
+            public AttackType VulnerabilityType;
+            public OilDamageType VulnerabilityToOil;
             public Transform Prefab;
             public ParticleSystemWrapper PrefabBlood;
+            public float ColdTime;
+            public float FireTime;
+            [Range(0f, 1f)] public float FireDamage;
+            public float AksiTime;
             public Vector3 Position;
             public Vector3 Scale;
+            public Vector2 PositionHealthBar;
+            public Vector3 ViewDamagePosition;
+            public AudioClip AudioClip;
         }
+
 
         public Enemy EnemyPrefab;
         public List<EnemyViewData> Enemies;

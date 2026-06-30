@@ -21,10 +21,10 @@ public class ParticleSystemWrapper : MonoBehaviour
         transform.rotation = Quaternion.Euler(rotationAngle, 90, 0);
         _particleSystem.Play();
     }
-    public void PlayAtPosition(Vector3 pos)
+    public void PlayAtPosition(Vector3 pos, bool begien)
     {
         transform.localPosition = pos;
-        _particleSystem.Play();
+        if(begien == false) _particleSystem.Play();
     }
     private float GetRotationAngle(float x, float y)
     {

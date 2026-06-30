@@ -16,11 +16,11 @@ namespace Meta.Locations
         [SerializeField] private Sprite _currentLevelSprite;
         [SerializeField] private Sprite _passedLevelSprite;
         [SerializeField] private Sprite _closedLevelSprite;
+        //[SerializeField] private Animator _animator;
 
         [SerializeField] private Color _currentLevelColor;
         [SerializeField] private Color _passedLevelColor;
         [SerializeField] private Color _closedLevelColor;
-
 
         public void Initialize(int levelNumber, ProgressState progressState, UnityAction clickCallback)
         {
@@ -44,6 +44,7 @@ namespace Meta.Locations
                     ProgressState.Passed => _passedLevelColor
                 };
             }
+            //_animator.SetFloat("speed", 1);
 
             _button.onClick.AddListener(() => clickCallback?.Invoke());
         }

@@ -11,6 +11,5 @@ namespace Game.Configs.LevelConfigs
         public int Location;
         public int LevelNumber;
         public List<EnemySpawnData> Enemies;
-        public int Reward;
     }
 }

@@ -1,22 +1,20 @@
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
 namespace Game.HealthBar
 {
     public class HealthBar : MonoBehaviour
     {
-        [SerializeField] private Slider _slider;
-        [SerializeField] private TextMeshProUGUI _text;
+        [SerializeField] protected Slider _slider;
 
         public void Show()
         {
-            gameObject.SetActive(true);
+            _slider.gameObject.SetActive(true);
         }
 
         public void Hide()
         {
-            gameObject.SetActive(false);
+            _slider.gameObject.SetActive(false);
         }
 
         public void SetMaxValue(float value)
@@ -25,13 +23,21 @@ namespace Game.HealthBar
             _slider.value = value;
         }
 
-        public void DecreaseValue(float value)
+        public virtual void DecreaseValue(float value)
         {
             _slider.value -= value;
         }
-        public void SetName(string name)
+        public void IncreaseValue(float value)
         {
-            _text.text = name;
+            _slider.value += value;
+        }
+        public void ChangeValue(float value)
+        {
+            _slider.value = value;
+        }
+        public virtual void DecreaseValue(float value, Vector3 pos, AttackType attackType)
+        {
+            DecreaseValue(value);
         }
     }
 }

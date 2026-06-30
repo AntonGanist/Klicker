@@ -16,13 +16,193 @@ MonoBehaviour:
   Enemies:
   - Id: 0
     Name: "\u0423\u0442\u043E\u043F\u043B\u0435\u043D\u0438\u043A"
+    FrameAttack: 0.75
+    VulnerabilityType: 4
+    VulnerabilityToOil: 1
     Prefab: {fileID: 5541421577625429731, guid: 029a807e37ed9544697b364315ac4475, type: 3}
     PrefabBlood: {fileID: -3919562710895741042, guid: 9fa9a8afe928ac9418a5e2510ffe3c08, type: 3}
-    Position: {x: 0, y: -3.91, z: 0.45}
-    Scale: {x: 0.81, y: 0.5717649, z: 0.81}
+    ColdTime: 8
+    FireTime: 5
+    FireDamage: 0.03
+    AksiTime: 9
+    Position: {x: 0, y: -1.04, z: 1}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+    PositionHealthBar: {x: 0, y: 871.7}
+    ViewDamagePosition: {x: 0, y: 967.68, z: 0}
+    AudioClip: {fileID: 0}
   - Id: 1
     Name: "\u0422\u0443\u043C\u0430\u043D\u043D\u0438\u043A"
+    FrameAttack: 0.71
+    VulnerabilityType: 5
+    VulnerabilityToOil: 1
     Prefab: {fileID: 1266507845262600082, guid: f4f180f0c8e410e418daa0e79fe0d5c4, type: 3}
-    PrefabBlood: {fileID: -3919562710895741042, guid: 9fa9a8afe928ac9418a5e2510ffe3c08, type: 3}
-    Position: {x: 0, y: -3.69, z: 2.48}
-    Scale: {x: 0.63, y: 0.63, z: 0.63}
+    PrefabBlood: {fileID: -3919562710895741042, guid: 58aa300c9c5df47478d058e0a54c74dc, type: 3}
+    ColdTime: 4
+    FireTime: 6
+    FireDamage: 0.04
+    AksiTime: 11
+    Position: {x: 0, y: -1.08, z: 1}
+    Scale: {x: 0.45, y: 0.45, z: 0.45}
+    PositionHealthBar: {x: 0, y: 900.6}
+    ViewDamagePosition: {x: 0, y: 990.1, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 2
+    Name: "\u0412\u043E\u043B\u043A\u043E\u043B\u0430\u043A"
+    FrameAttack: 0.66
+    VulnerabilityType: 3
+    VulnerabilityToOil: 4
+    Prefab: {fileID: 2595715852465905703, guid: 31c5f019510497e4e8c5576300004a07, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: e03c03100d906f248bb22cc3a15a02e8, type: 3}
+    ColdTime: 3
+    FireTime: 11
+    FireDamage: 0.1
+    AksiTime: 5
+    Position: {x: 0, y: -1.08, z: 1}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+    PositionHealthBar: {x: 0, y: 823}
+    ViewDamagePosition: {x: 0, y: 869, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 3
+    Name: "\u0413\u043E\u043B\u0435\u043C"
+    FrameAttack: 0.75
+    VulnerabilityType: 0
+    VulnerabilityToOil: 3
+    Prefab: {fileID: 5713496886478290905, guid: 4f3de631c5044244791608b406cf944e, type: 3}
+    PrefabBlood: {fileID: 1221695544115624877, guid: 686c31edbc0c5034a91ff6bf11ce5422, type: 3}
+    ColdTime: 4
+    FireTime: 4
+    FireDamage: 0.01
+    AksiTime: 4
+    Position: {x: 0, y: -0.85, z: 1}
+    Scale: {x: 0.3, y: 0.42, z: 0.3}
+    PositionHealthBar: {x: 0, y: 914.3}
+    ViewDamagePosition: {x: 0, y: 990.1, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 4
+    Name: "\u0422\u0440\u043E\u043B\u043B\u044C"
+    FrameAttack: 0.72
+    VulnerabilityType: 4
+    VulnerabilityToOil: 2
+    Prefab: {fileID: 11925132664532313, guid: 23767347945766745a9a9d6d3592fb6e, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: e03c03100d906f248bb22cc3a15a02e8, type: 3}
+    ColdTime: 9
+    FireTime: 6
+    FireDamage: 0.05
+    AksiTime: 7
+    Position: {x: 0, y: -0.98, z: 1}
+    Scale: {x: 0.44, y: 0.44, z: 0.44}
+    PositionHealthBar: {x: 0, y: 1083}
+    ViewDamagePosition: {x: 0, y: 1194.2, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 5
+    Name: "\u0413\u0430\u0440\u0433\u0443\u043B\u044C\u044F"
+    FrameAttack: 0.83
+    VulnerabilityType: 0
+    VulnerabilityToOil: 3
+    Prefab: {fileID: 3871468225935027561, guid: 7afe5b5cfe9594448a8c554aed5efd4b, type: 3}
+    PrefabBlood: {fileID: 1221695544115624877, guid: 052b24608f2aa234398b6e4427576c75, type: 3}
+    ColdTime: 2
+    FireTime: 2
+    FireDamage: 0.01
+    AksiTime: 9
+    Position: {x: -0.074, y: 0.58, z: 1}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+    PositionHealthBar: {x: 0, y: 766.51}
+    ViewDamagePosition: {x: 0, y: 852, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 6
+    Name: "\u041B\u0435\u0448\u0438\u0439"
+    FrameAttack: 0.83
+    VulnerabilityType: 3
+    VulnerabilityToOil: 3
+    Prefab: {fileID: 4295061575890979389, guid: e2d6090866931ab488d86054186f394c, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: ca05de5737b0128418e402957942c60c, type: 3}
+    ColdTime: 3
+    FireTime: 10
+    FireDamage: 0.12
+    AksiTime: 2
+    Position: {x: 0, y: 1.15, z: 1}
+    Scale: {x: 0.5, y: 0.5, z: 0.5}
+    PositionHealthBar: {x: 0, y: 941.7}
+    ViewDamagePosition: {x: 0, y: 1032.5, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 7
+    Name: "\u0413\u0443\u043B\u044C"
+    FrameAttack: 0.83
+    VulnerabilityType: 5
+    VulnerabilityToOil: 1
+    Prefab: {fileID: 6205945675150991306, guid: b421950745814a94b8d40a4d56c77b44, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: e1e0d49b4ef810f47a9a044af3f4cee5, type: 3}
+    ColdTime: 6
+    FireTime: 5
+    FireDamage: 0.04
+    AksiTime: 4
+    Position: {x: 0, y: -0.25, z: 1}
+    Scale: {x: 0.2, y: 0.2, z: 0.2}
+    PositionHealthBar: {x: 0, y: 300}
+    ViewDamagePosition: {x: 0, y: 391, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 8
+    Name: "\u041B\u0435\u0434\u044F\u043D\u043E\u0439 \u0432\u0435\u043B\u0438\u043A\u0430\u043D"
+    FrameAttack: 0.66
+    VulnerabilityType: 3
+    VulnerabilityToOil: 2
+    Prefab: {fileID: 7334167765915549391, guid: 8426b1d2ec43c6f4dabcf3ed4644dcbc, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: 38849d34e75b70a46a1d739f4a13fc9f, type: 3}
+    ColdTime: 1
+    FireTime: 7
+    FireDamage: 0.09
+    AksiTime: 5
+    Position: {x: 0, y: 1.04, z: 1}
+    Scale: {x: 0.43, y: 0.43, z: 0.43}
+    PositionHealthBar: {x: 0, y: 1048.92}
+    ViewDamagePosition: {x: 0, y: 1119, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 9
+    Name: "\u041E\u0433\u0440"
+    FrameAttack: 1
+    VulnerabilityType: 4
+    VulnerabilityToOil: 2
+    Prefab: {fileID: 1799272372030865687, guid: 7453dc451e307b344b08a8ff85f8bf67, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: b3577b193c6777a419c1e689f9766336, type: 3}
+    ColdTime: 8
+    FireTime: 3
+    FireDamage: 0.01
+    AksiTime: 6
+    Position: {x: -0.03, y: 0.61, z: 1}
+    Scale: {x: 0.47, y: 0.47, z: 0.47}
+    PositionHealthBar: {x: 0, y: 953}
+    ViewDamagePosition: {x: 0, y: 1000, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 10
+    Name: "\u0420\u044B\u0431\u043E\u0447\u0435\u043B\u043E\u0432\u0435\u043A"
+    FrameAttack: 0.83
+    VulnerabilityType: 4
+    VulnerabilityToOil: 4
+    Prefab: {fileID: 3836046527285134920, guid: 87e6a1bf630f39242b9f8dd539ac8b9d, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: c9123af79d45a2646b8c7bec017e137d, type: 3}
+    ColdTime: 10
+    FireTime: 4
+    FireDamage: 0.03
+    AksiTime: 4
+    Position: {x: 0, y: 0.84, z: 1}
+    Scale: {x: 0.38, y: 0.38, z: 0.38}
+    PositionHealthBar: {x: 0, y: 846}
+    ViewDamagePosition: {x: 0, y: 900, z: 0}
+    AudioClip: {fileID: 0}
+  - Id: 11
+    Name: "\u0423\u0440\u0441\u043E\u043B\u0430\u043A"
+    FrameAttack: 0.83
+    VulnerabilityType: 5
+    VulnerabilityToOil: 4
+    Prefab: {fileID: 2572504937246242896, guid: 0b2317b2f40be69408a0f635d17f4cc8, type: 3}
+    PrefabBlood: {fileID: -3919562710895741042, guid: 4cbcdf3d29373604aaac0f5d072b5c9e, type: 3}
+    ColdTime: 4
+    FireTime: 4
+    FireDamage: 0.06
+    AksiTime: 10
+    Position: {x: 0.03, y: 0.68, z: 1}
+    Scale: {x: 0.4, y: 0.4, z: 0.4}
+    PositionHealthBar: {x: 0, y: 869}
+    ViewDamagePosition: {x: 0, y: 920, z: 0}
+    AudioClip: {fileID: 0}
